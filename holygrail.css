@@ -1,0 +1,57 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+	font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background: #999;
+  line-height: 80px;
+}
+
+nav{
+  background: #777;
+  line-height: 80px;
+  order: 3;
+  flex-grow: 1;
+}
+
+main{
+  background: #FFF;
+  line-height: 80px;
+  order: 2;
+  flex-grow: 2;
+}
+
+aside{
+  background: #777;
+  line-height: 80px;
+  order: 1;
+  flex-grow: 1;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background: #999;
+  line-height: 80px;
+}
